@@ -1,0 +1,16 @@
+// screenshot
+// await element.screenshot({path: 'screenShotDom.png'});
+
+// viewPort
+// page.setViewport({width: 1200, height: 800})
+
+// device
+// const puppeteer = require('puppeteer');
+// const iPhone = puppeteer.devices['iPhone 6'];
+// await page.emulate(iPhone)
+
+// tab
+const page1 = await browser.newPage();
+const page2 = await browser.newPage();
+await page1.bringToFront();
+
